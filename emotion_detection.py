@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 #PROJECT: Emotion Detection using AI
@@ -71,6 +70,7 @@ while True:
 cap.release() #Stops webcam
 cv2.destroyAllWindows() # Closes OpenCV windows
 print("Webcam stopped. Program exited.")
+
 =======
 
 
@@ -144,4 +144,4 @@ while True:
 cap.release() #Stops webcam
 cv2.destroyAllWindows() # Closes OpenCV windows
 print("Webcam stopped. Program exited.")
->>>>>>> 69c633b (Added images and updated project files)
+
