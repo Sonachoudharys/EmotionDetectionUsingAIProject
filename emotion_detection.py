@@ -55,7 +55,7 @@ while True:
             '''
 
     except Exception as e:
-        #  no face detected),
+        #  no face detected
         print("Error:", e)
 
     # Show the result frame
@@ -68,5 +68,6 @@ while True:
 cap.release() #Stops webcam
 cv2.destroyAllWindows() # Closes OpenCV windows
 print("Webcam stopped. Program exited.")
+
 
 
