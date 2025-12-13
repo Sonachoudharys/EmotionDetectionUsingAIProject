@@ -35,6 +35,3 @@ It captures live video from a webcam and identifies the dominant emotion of any 
 pip install opencv-python
 pip install deepface
 
-## Run the Project
-```bash
-python emotion_detection.py
