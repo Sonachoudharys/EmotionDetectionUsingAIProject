@@ -11,7 +11,7 @@ It captures live video from a webcam and identifies the dominant emotion of any 
 ## Features
 - Real-time video processing using webcam  
 - Face detection with emotion recognition  
-- Displays emotion label with confidence score  
+- Displays emotion label with confidence percentage  
 - Draws bounding box around detected face  
 - Handles frames even when no face is detected (`enforce_detection=False`)  
 
@@ -28,9 +28,13 @@ It captures live video from a webcam and identifies the dominant emotion of any 
 1. The webcam captures live video frames.  
 2. DeepFace analyzes each frame to detect human faces.  
 3. The dominant emotion is identified for each detected face.  
-4. A green rectangle is drawn around the face with the emotion label and confidence score.  
+4. A green rectangle is drawn around the face with the emotion label and confidence percentage.  
 
 ## Install Required Libraries
 ```bash
 pip install opencv-python
 pip install deepface
+
+## Run the Project
+```bash
+python emotion_detection.py
