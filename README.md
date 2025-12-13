@@ -24,6 +24,16 @@ It captures live video from a webcam and identifies the dominant emotion of any 
 - Surprise  
 - Neutral  
 
+## Folder Structure
+```text
+EmotionDetectionUsingAIProject/
+│
+├── emotion_detection.py
+├── Screenshot*.png          # Output screenshots
+├── requirements.txt
+└── README.md
+```
+
 ## How It Works
 1. The webcam captures live video frames.  
 2. DeepFace analyzes each frame to detect human faces.  
@@ -34,4 +44,15 @@ It captures live video from a webcam and identifies the dominant emotion of any 
 ```bash
 pip install opencv-python
 pip install deepface
+```
 
+## Run the Project
+```bash
+python emotion_detection.py
+```
+
+## Project Use Cases
+- Emotion-aware AI systems  
+- Human–Computer Interaction  
+- Mental health monitoring  
+- Computer Vision learning projects  
